@@ -1,4 +1,4 @@
-baseURL: ""
+baseURL: "https://ornate-crisp-d45cd7.netlify.app"
 languageCode: "en-us"
 title: My New Hugo Site
 theme: PaperMod
