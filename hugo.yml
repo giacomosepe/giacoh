@@ -1,0 +1,42 @@
+baseURL: ""
+languageCode: "en-us"
+title: My New Hugo Site
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: Corporate Dev Manager
+    Content: Focused on building products for companies. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse sint ducimus laborum nesciunt doloremque commodi error laboriosam non aperiam eos. Est, vel. Voluptatem error non beatae dignissimos, dolorum repellendus fugiat.
+
+  SocialIcons:
+    - name: linkedin
+      url: https://linkedin.com/in/giacomosepe
+    - name: instagram
+      url: https://giacomo
+    - name: angellist
+      url: talentwell.com/giacomosepe
+    - name: website
+      url: https://giacomosepe.com
+
+  cover:
+    linkFullImages: true
+
+  ShowBreadCrumbs: false
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+
+menus:
+  main:
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
+    - identifier: archives
+      name: Archive
+      url: /archives/
+      weight: 30
